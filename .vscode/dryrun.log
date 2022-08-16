@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/huangyuchieh/Desktop/UNIX/310551162_hw4'
+g++ -c -Wall -g hw4.cpp
+g++ -c -Wall -g ptools.cpp
+g++ -c -Wall -g command.cpp
+g++ -o hw4 hw4.o ptools.o command.o  -l capstone 
+make: Leaving directory `/Users/huangyuchieh/Desktop/UNIX/310551162_hw4'
+ 
